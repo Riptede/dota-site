@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Reaver-SemiBold";
+
+  src: url('./fonts/Reaver-SemiBold.woff') format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+.text {
+  font-size: 40px;
+  transform: translate(0px, -130px);
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+.list img {
+  float: left;
+  margin-right: 20px;
+  /* задаем отступ от картинки до списка */
+}
+
+.nav {
+  transform: translate(0px, -130px);
+}
+
+
+body {
+  font-family: 'Reaver-SemiBold';
+  background: url(./img/featured.jpg);
+  color: rgba(187, 187, 187, .9333333333);
+}
+
+.main {
+  transform: translate(0px, -130px);
+}
